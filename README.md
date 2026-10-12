@@ -52,7 +52,7 @@ The fields in the table below can be used in these parts of STAC documents:
 | spot:scene\_count         | integer   | Number of scenes in the segment.                                                              |
 | spot:scene\_id            | string    | Compact SPOT scene key. It is the join key between coupled scenes.                            |
 | spot:coupled\_mode        | boolean   | `true` if the scene was acquired at the same time as scenes in another mode.                  |
-| spot:coupling\_modes      | \[string] | Mode combinations of the coupled acquisition, for example `PAN+XS`.                           |
+| spot:coupling\_mode      | \[string] | Mode combinations of the coupled acquisition, for example `PAN+XS`.                           |
 | spot:cloud\_cover\_quotes | string    | SPOT catalogue cloud notation: 8 letters, one per sub-area, from `A` (clear) to `E` (cloudy). |
 
 An Item that declares this extension must have at least one of these fields.
